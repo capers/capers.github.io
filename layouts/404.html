@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404: Page Not Found - {{ .Site.Title }}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <style>
+        body {
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 2rem;
+            font-family: system-ui, -apple-system, sans-serif;
+            text-align: center;
+            background: #fffef7;
+            color: #333;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: #1a1a1a;
+                color: #e5e5e5;
+            }
+        }
+        .error-code {
+            font-family: monospace;
+            font-size: 3rem;
+            color: #666;
+            margin: 4rem 0 1rem;
+        }
+        .error-message {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="error-code">404</div>
+        <div class="error-message">
+            <p>Sorry, nothing here to see.</p>
+        </div>
+    </main>
+</body>
+</html>

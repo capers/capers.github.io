@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#fffef7"/>
+  <text 
+    x="50%" 
+    y="50%" 
+    text-anchor="middle" 
+    dominant-baseline="central"
+    font-family="JetBrains Mono, monospace"
+    font-weight="bold"
+    font-size="240"
+    fill="#333333"
+  >MC</text>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      rect { fill: #1a1a1a; }
+      text { fill: #e5e5e5; }
+    }
+  </style>
+</svg>
