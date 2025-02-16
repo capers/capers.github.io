@@ -1,12 +1,30 @@
 /* Base styles */
+:root {
+    --bg-color: #fffef7;
+    --text-color: #333;
+    --border-color: #333;
+    --link-color: #2563eb;
+    --date-color: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #1a1a1a;
+        --text-color: #e5e5e5;
+        --border-color: #666;
+        --link-color: #60a5fa;
+        --date-color: #999;
+    }
+}
+
 body {
     max-width: 650px;
     margin: 0 auto;
     padding: 2rem;
     font-family: "Crimson Pro", "Libre Baskerville", Georgia, "Times New Roman", serif;
     line-height: 1.6;
-    background: #fffef7;
-    color: #333;
+    background: var(--bg-color);
+    color: var(--text-color);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 18px;
@@ -15,7 +33,7 @@ body {
 /* Header */
 header {
     margin-bottom: 3rem;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid var(--border-color);
 }
 
 header h1 {
@@ -33,7 +51,7 @@ main {
 
 /* Links */
 a {
-    color: #2563eb;
+    color: var(--link-color);
     text-decoration: none;
     transition: border-color 0.2s ease;
 }
@@ -59,7 +77,7 @@ a:hover {
 .post-date {
     font-family: "JetBrains Mono", "SF Mono", "Menlo", monospace;
     font-size: 0.9rem;
-    color: #666;
+    color: var(--date-color);
     min-width: 6.5rem;
 }
 
@@ -94,10 +112,10 @@ body::before {
     width: 100%;
     height: 100%;
     pointer-events: none;
-    background-image: linear-gradient(45deg, #000 25%, transparent 25%),
-                      linear-gradient(-45deg, #000 25%, transparent 25%),
-                      linear-gradient(45deg, transparent 75%, #000 75%),
-                      linear-gradient(-45deg, transparent 75%, #000 75%);
+    background-image: linear-gradient(45deg, currentColor 25%, transparent 25%),
+                      linear-gradient(-45deg, currentColor 25%, transparent 25%),
+                      linear-gradient(45deg, transparent 75%, currentColor 75%),
+                      linear-gradient(-45deg, transparent 75%, currentColor 75%);
     background-size: 2px 2px;
     opacity: 0.01;
 }

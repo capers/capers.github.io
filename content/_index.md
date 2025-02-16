@@ -5,6 +5,6 @@ title = 'Matt Capers'
 +++
 
 ## About
-I live in San Francisco. I'm currently working in product at [Plaid](https://www.linkedin.com/in/mattcapers/). Previously, I worked at Block, leading growth, P2P, and other areas in Cash App, while building and leading ML teams on Square (all focused on growth). I invest in financial services and data companies.  
+I live in San Francisco. I'm currently working in product at [Plaid](https://www.linkedin.com/in/mattcapers/). Previously, I worked at Block, leading growth, P2P, and other areas in Cash App, while building and leading ML/DS teams on Square (all focused on growth). I invest in financial services and data startups.  
 
 You can reach me at matt [at] capers.xyz
