@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>{{ .Title }}</h1>
+        <div class="post-date">{{ .Date.Format "06-01-02" }}</div>
+    </header>
+
+    <main>
+        {{ .Content }}
+        
+        <p><a href="/">← Back to home</a></p>
+    </main>
+</body>
+</html> 
