@@ -32,21 +32,22 @@ body {
 
 /* Header */
 header {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+    padding-bottom: 1.5rem;
     border-bottom: 2px solid var(--border-color);
 }
 
 header h1 {
     font-size: 2.5rem;
     font-weight: 500;
-    margin: 0 0 1rem 0;
+    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     letter-spacing: -0.02em;
 }
 
 /* Main content */
 main {
-    margin-top: 2rem;
+    margin-top: 0;
 }
 
 /* Links */
@@ -64,14 +65,14 @@ a:hover {
 .post-list {
     list-style: none;
     padding: 0;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .post-list li {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     display: flex;
     align-items: baseline;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .post-date {
@@ -90,11 +91,11 @@ a:hover {
 
     .post-list li {
         flex-direction: column;
-        gap: 0.25rem;
+        gap: 0.5rem;
     }
 
     .post-date {
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.5rem;
     }
 }
 
